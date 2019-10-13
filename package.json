@@ -30,7 +30,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://am02464.github.io/simple-react-app",
+  "homepage": "http://am02464.github.io/simple-csv-reader",
   "devDependencies": {
     "gh-pages": "^2.1.1"
   }

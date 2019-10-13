@@ -11,7 +11,7 @@ export default function FileDisplayScreen(props) {
         <div className="display-4 px-4 py-5 text-white">
             Contents of the file are shown bellow
                 <hr />
-            <button className="btn btn-lg py-3 btn-white my-4 py-2" onClick={() => props.navigator('FileSelectionScreen')}>
+            <button className="btn py-3 btn-white my-4 py-2" onClick={() => props.navigator('FileSelectionScreen')}>
                 Select a New File
             </button>
         </div>

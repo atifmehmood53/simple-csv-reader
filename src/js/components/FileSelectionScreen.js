@@ -10,7 +10,7 @@ export default function FileSelectionScreen(props) {
 
 
     return <div className="row  text-white align-items-center justify-content-center">
-        <div className="main-content card p-sm-3 p-md-4">
+        <div className="main-content card p-sm-5 p-4">
             <h1 className="text-center ">
                 <span className="text-danger">{"<"}</span>
                 <span className="text-success">CSV</span>
