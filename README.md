@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Simple CSV File Reader in React JS
 
-In the project directory, you can run:
+  
 
-### `yarn start`
+This is my first react application. The application has simple interface. First screen lets a user select a **CSV** file and second screen shows its contents in a table.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Contents
 
-### `yarn test`
+- [Project Structure](#-Project-Structure)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Dependencies](#-Dependencies )
 
-### `yarn build`
+- [Run the App](#-Run-the-App)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The project has a root folder **Simple CSV Reader**. Components are stored in **src/components** directory.
 
-### `yarn eject`
+  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+-  **Simple CSV Reader**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+	-  **src**: Contains all css and js files in their respective folders.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+		-  **css**: Contains all css files.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+		-  **js** : Contains all js files.
+			- **components**: Contains all components.
 
-## Learn More
+			-  **utils.js**: contains helper functions
+    - **public**: 
+        -  **index.html** : Main entry point of the app.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  
+  
+  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Dependencies
 
-### Code Splitting
+all dependencies has been added **package.json**.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+-  **react**: "^16.10.2",
+-  **react-dom**: "^16.10.2",
+-  **react-scripts**: "3.2.0"
 
-### Analyzing the Bundle Size
+## Run the App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+1. Open your command prompt and change your current working directory to the directory where to want to clone the app the execute the following command
 
-### Making a Progressive Web App
+  
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+```$ git clone git@github.com:am02464/Simple-CSV-Reader```
 
-### Advanced Configuration
+2. Change your working directory to **Simple-CSV-Reader** and run
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+```$ yarn```
 
-### Deployment
+3. After the dependencies have installed run
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+```$ yarn start```
 
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+this will open the app in your default browser 
