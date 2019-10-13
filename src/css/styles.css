@@ -1,0 +1,56 @@
+
+hr{
+    padding:0.5px;
+}
+
+
+.form-group{
+    font-size: 1rem;
+}
+
+.main-content h1{
+    font-size: 2rem;
+}
+
+.row{
+    min-height: 100vh;
+}
+
+
+.cell{
+    border-width: 2px !important;
+    min-width: 100px;
+}
+
+.cell:hover{
+    background: rgb(136, 226, 238);
+    cursor:cell;
+}
+
+@media (min-width: 576px) {
+    .form-group{
+        font-size: 1rem;
+    }
+
+    
+    .main-content h1{
+        font-size: 3rem;
+    }
+  }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {
+    .form-group{
+        font-size: 1.5rem;
+    }
+
+    
+    .main-content h1{
+        font-size: 10rem;
+    }
+}
+
+@media (min-width: 1200px) {  }
