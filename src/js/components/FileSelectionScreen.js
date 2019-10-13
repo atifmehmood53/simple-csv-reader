@@ -16,7 +16,7 @@ export default function FileSelectionScreen(props) {
                 <span className="text-success">CSV</span>
                 <span className="text-dark">Reader</span>
                 <span className="text-danger">{"/>"}</span>
-                <div className="h3 p-0 text-sm-right text-dark"> by <a href="https://linkedin.com/atifmehmood53">Atif Mehmood</a></div>
+                <div className="h3 p-0 text-sm-right text-dark"> by <a href="https://linkedin.com/in/atifmehmood53">Atif Mehmood</a></div>
             </h1>
             <hr className="bg-white" />
             <FileInputForm navigator={props.navigator} />
