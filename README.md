@@ -5,7 +5,11 @@
 
 This is my first react application. The application has simple interface. First screen lets a user select a **CSV** file and second screen shows its contents in a table.
 
-  
+
+# Demo App
+
+you can access the hosted version [here](http://am02464.github.io/simple-csv-reader)
+
 
 # Contents
 
