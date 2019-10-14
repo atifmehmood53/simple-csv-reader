@@ -13,11 +13,11 @@ you can access the hosted version [here](http://am02464.github.io/simple-csv-rea
 
 # Contents
 
-- [Project Structure](#-Project-Structure)
+- [Project Structure](#Project-Structure)
 
-- [Dependencies](#-Dependencies )
+- [Dependencies](#Dependencies )
 
-- [Run the App](#-Run-the-App)
+- [Run the App](#Run-the-App)
 
   
 
