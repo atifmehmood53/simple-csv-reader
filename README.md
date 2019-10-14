@@ -55,17 +55,12 @@ all dependencies has been added **package.json**.
 ## Run the App
 
 1. Open your command prompt and change your current working directory to the directory where to want to clone the app the execute the following command
-
-  
-
-```$ git clone git@github.com:am02464/Simple-CSV-Reader```
+	```$ git clone git@github.com:am02464/Simple-CSV-Reader```
 
 2. Change your working directory to **Simple-CSV-Reader** and run
-
-```$ yarn```
+	```$ yarn```
 
 3. After the dependencies have installed run
-
-```$ yarn start```
+	```$ yarn start```
 
 this will open the app in your default browser 
